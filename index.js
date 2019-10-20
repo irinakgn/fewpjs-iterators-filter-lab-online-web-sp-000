@@ -9,13 +9,11 @@ function findMatching(drivers, name){
     return [];
   };
 
-
-
-
 function fuzzyMatch(){
 
 }
 
-function matchName(){
-
+function matchName(drivers, name){
+const match = drivers.filter(d => d === name)
+return match;
 }
