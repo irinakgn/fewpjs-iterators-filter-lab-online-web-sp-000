@@ -2,7 +2,7 @@
 function findMatching(drivers, name){
     const match = drivers.filter(d => d.toUpperCase() === name.toUpperCase())
 
-    if(!!match){
+    if(match !== undefined){
       return match
     }
 
