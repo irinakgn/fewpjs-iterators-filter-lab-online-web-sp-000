@@ -20,7 +20,7 @@ function fuzzyMatch(drivers, letters){
 }
 
 function matchName(drivers, name){
-const match = drivers.filter(drivers => drivers === name)
+const match = drivers.filter(drivers => drivers.name === name)
 
 if(match !== undefined){
   return match
