@@ -4,7 +4,7 @@ function findMatching(drivers, name){
        return match;
    }
   else {
-    return [ ];
+    return [];
   }
   };
 
