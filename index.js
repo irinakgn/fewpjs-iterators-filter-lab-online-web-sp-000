@@ -15,5 +15,10 @@ function fuzzyMatch(){
 
 function matchName(drivers, name){
 const match = drivers.filter(d => d === name)
-return match;
+if(match !== undefined){
+  return match
+}
+
+return [];
+
 }
