@@ -1,11 +1,8 @@
 // Code your solution here
 function findMatching(drivers, name){
-   if (match = drivers.filter(drivers => drivers.toUpperCase() === name.toUpperCase())){
-       return match;
-   }
-  else {
-    return [];
-  }
+    const match = drivers.filter(drivers => drivers.toUpperCase() === name.toUpperCase())
+      return [];
+
   };
 
 
